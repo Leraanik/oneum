@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интеграции</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <aside>
+        <img src="../images/logo.svg" alt="Логотип" class="logo">
+        <nav >
+            <ul class="navigation">
+                <li class="navigation_list">
+                    <button class="navigation_btn " data-url="index.html" >
+                        <img class="navigation_logo" src="../images/dashboard.svg" alt="Дашборд">
+                        <p class="navigation_text">Дашборд</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="dialog.html">
+                        <img class="navigation_logo" src="../images/message.svg" alt="Диалоги">
+                        <p class="navigation_text">Диалоги</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="neoro.html">
+                        <img class="navigation_logo" src="../images/star.svg" alt="Нейросеть">
+                        <p class="navigation_text">Нейросеть</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn navigation_btn-active" data-url="integration.html" >
+                        <img class="navigation_logo" src="../images/plug.svg" alt="Интеграции">
+                        <p class="navigation_text">Интеграции</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="meneger.html">
+                        <img class="navigation_logo" src="../images/users.svg" alt="Менеджеры">
+                        <p class="navigation_text">Менеджеры</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="analitics.html">
+                        <img class="navigation_logo" src="../images/chart-pie.svg" alt="Аналитика">
+                        <p class="navigation_text">Аналитика</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="settings.html">
+                        <img class="navigation_logo" src="../images/settings.svg" alt="Настройки">
+                        <p class="navigation_text">Настройки</p>
+                    </button>
+                </li>
+            </ul>
+                        
+        </nav>
+    </aside>
+    <main class="intergration_content">
+        <div class="integrationMain_spisok">
+            <p class="integrationMain_title">Интеграции</p>
+            <ul>
+                <li class="integrationMain_list">
+                    <button class="integrationMain_btn integrationMain_btn-active">
+                        <p class="integrationMain_btn-text">Telegram</p>
+                        <p class="integrationMain_text">Инструкции по подключению внутри</p>
+                    </button>
+                </li>
+
+                <li class="integrationMain_list">
+                    <button class="integrationMain_btn">
+                        <p class="integrationMain_btn-text">WhatsApp</p>
+                        <p class="integrationMain_text">Инструкции по подключению внутри</p>
+                    </button>
+                </li>
+
+                <li class="integrationMain_list">
+                    <button class="integrationMain_btn">
+                        <p class="integrationMain_btn-text">Вконтакте</p>
+                        <p class="integrationMain_text">Инструкции по подключению внутри</p>
+                    </button>
+                </li>
+
+                <li class="integrationMain_list">
+                    <button class="integrationMain_btn">
+                        <p class="integrationMain_btn-text">Viber</p>
+                        <p class="integrationMain_text">Инструкции по подключению внутри</p>
+                    </button>
+                </li>
+
+                <li class="integrationMain_list">
+                    <button class="integrationMain_btn">
+                        <p class="integrationMain_btn-text">CRM</p>
+                        <p class="integrationMain_text">Bitrix, Yclients, AmoCRM</p>
+                        <p class="integrationMain_status">В РАЗРАБОТКЕ</p>
+                    </button>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="integration_info">
+            <div class="integration_changes">
+
+                <button class="integration_changes-btn" id="themeToggleTree">
+                    <img src="../images/light.svg" alt="Свет" class="integration_img">
+                </button>
+
+                <button class="integration_changes-btn">
+                    <img src="../images/languages.svg" alt="Языки" class="integration_img">
+                </button>
+
+                <button class="integration_changes-btn">
+                    <img src="../images/notifications.svg" alt="Уведомления" class="integration_img">
+                </button>
+
+                <button class="integration_changes-btn">
+                    <img src="../images/profile.svg" alt="Профиль" class="integration_img">
+                </button>
+
+            </div>
+            <p class="integration_heading">Telegram</p>
+            <p class="integration_description">Добавление новой интеграции</p>
+            <div class="integration_container">
+                <input type="text" placeholder="Введите API key для подключения" class="inputi">
+                <button>Подключить</button>
+            </div>
+
+            <p class="integration_headline">Ваши интеграции</p>
+            <div class="integration_blockes">
+                <input class="integration_input" type="text" placeholder="Telegram-бот Вашей компании">
+                <button class="integration_btn-connection">
+                    <img src="../images/toggle-right.svg" alt="Логотип" class="integration_imger">
+                    <p class="integration_descrip">Подключено</p>
+                </button>
+
+                <button class="integration_btn-removal">
+                    <img src="../images/removal.svg" alt="Удаление" class="removall">
+                </button>
+            </div>
+
+            <div class="integration_schedule">
+                <ul >
+                    <li class="integration_schedule-list schedule_list-one">
+                        <img src="../images/one.svg" alt="один" class="integration_logo one">
+                        <p class="integration_schedule-text">Введите в поле поиска @BotFather и выберите бота.</p>
+                    </li>
+
+                    <li class="integration_schedule-list schedule_list-two">
+                        <img src="../images/two.svg" alt="два" class="integration_logo two">
+                        <p class="integration_schedule-text">Нажмите «Запустить» для активации бота BotFather.</p>
+                    </li>
+
+                    <li class="integration_schedule-list schedule_list-three">
+                        <img src="../images/three.svg" alt="три" class="integration_logo three">
+                        <p class="integration_schedule-text">Выберите или напечатайте и отправьте команду /newbot.</p>
+                    </li>
+
+                    <li class="integration_schedule-list schedule_list-four">
+                        <img src="../images/four.svg" alt="четыре" class="integration_logo four">
+                        <p class="integration_schedules-text">Дайте имя боту — клиенты увидят это имя при общении с ботом. Придумайте никнейм бота —</br>по нему можно будет найти бота в Telegram. Никнейм должен быть уникальным, не повторять</br>существующие в базе и заканчиваться на слово «bot».</p>
+                    </li>
+
+                    <li class="integration_schedule-list schedule_list-five">
+                        <img src="../images/five.svg" alt="пять" class="integration_logo five">
+                        <p class="integration_schedule-text">Скопируйте HTTP API в форму выше.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+<script src="../navigation.js"></script>
+</body>
+</html>

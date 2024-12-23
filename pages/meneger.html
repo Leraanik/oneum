@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджеры</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <aside>
+        <img src="../images/logo.svg" alt="Логотип" class="logo">
+        <nav >
+            <ul class="navigation">
+                <li class="navigation_list">
+                    <button class="navigation_btn " data-url="index.html" >
+                        <img class="navigation_logo" src="../images/dashboard.svg" alt="Дашборд">
+                        <p class="navigation_text">Дашборд</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="dialog.html">
+                        <img class="navigation_logo" src="../images/message.svg" alt="Диалоги">
+                        <p class="navigation_text">Диалоги</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="neoro.html">
+                        <img class="navigation_logo" src="../images/star.svg" alt="Нейросеть">
+                        <p class="navigation_text">Нейросеть</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="integration.html" >
+                        <img class="navigation_logo" src="../images/plug.svg" alt="Интеграции">
+                        <p class="navigation_text">Интеграции</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn navigation_btn-active" data-url="meneger.html">
+                        <img class="navigation_logo" src="../images/users.svg" alt="Менеджеры">
+                        <p class="navigation_text">Менеджеры</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="analitics.html">
+                        <img class="navigation_logo" src="../images/chart-pie.svg" alt="Аналитика">
+                        <p class="navigation_text">Аналитика</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="settings.html">
+                        <img class="navigation_logo" src="../images/settings.svg" alt="Настройки">
+                        <p class="navigation_text">Настройки</p>
+                    </button>
+                </li>
+            </ul>    
+        </nav>
+    </aside>
+
+    <main>
+        <div class="menagers_block">
+            <div class="menagers_info">
+                <p class="menagers_headers">Управление командой</p>
+    
+                <div class="menagers_change">
+                    <ul class="menagers_spisok">
+                        <li class="menagers_list">
+                            <button class="menagers_btn" id="themeToggleFour"><img src="../images/light.svg" alt=""></button>
+                        </li>
+            
+                        <li class="menagers_list">
+                            <button class="menagers_btn"><img src="../images/languages.svg" alt=""></button>
+                        </li>
+            
+                        <li class="menagers_list">
+                            <button class="menagers_btn"><img src="../images/notifications.svg" alt=""></button>
+                        </li>
+            
+                        <li class="menagers_list">
+                            <button class="menagers_btn"><img src="../images/profile.svg" alt=""></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <input type="text" placeholder="Введите почту сотрудника" class="menagers_input">
+            <button class="menagers_button">Отправить</button>
+            <div class="managers_user">
+                <img src="../images/square-check.svg" alt="" class="managers_check">
+                
+                <p class="menagers_FIO">ФИО</p>
+                <p class="managers_name">Имя в диалоге</p>
+                <p class="managers_letter">Почта</p>
+                <p class="managers_tel">Телефон</p>
+                <p class="managers_role">Роль</p>
+                <p class="managers_status">Статус</p>
+                
+            </div>
+            <div class="manager_managers"></div>
+        </div>
+
+
+    </main>
+    <script src="../navigation.js"></script>
+    <script src="../managerData.js"></script>
+    <script src="../manager.js"></script>
+</body>
+
+</html>
+

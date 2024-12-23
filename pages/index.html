@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oneum</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <aside class="sidebar desktop-only">
+        <img src="../images/logo.svg" alt="Логотип" class="logo">
+        <nav >
+            <ul class="navigation">
+                <li class="navigation_list">
+                    <button class="navigation_btn navigation_btn-active" data-url="index.html" >
+                        <img class="navigation_logo" src="../images/dashboard.svg" alt="Дашборд">
+                        <p class="navigation_text">Дашборд</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="dialog.html">
+                        <img class="navigation_logo" src="../images/message.svg" alt="Диалоги">
+                        <p class="navigation_text">Диалоги</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="neoro.html">
+                        <img class="navigation_logo" src="../images/star.svg" alt="Нейросеть">
+                        <p class="navigation_text">Нейросеть</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="integration.html" >
+                        <img class="navigation_logo" src="../images/plug.svg" alt="Интеграции">
+                        <p class="navigation_text">Интеграции</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="meneger.html">
+                        <img class="navigation_logo" src="../images/users.svg" alt="Менеджеры">
+                        <p class="navigation_text">Менеджеры</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="analitics.html">
+                        <img class="navigation_logo" src="../images/chart-pie.svg" alt="Аналитика">
+                        <p class="navigation_text">Аналитика</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="settings.html">
+                        <img class="navigation_logo" src="../images/settings.svg" alt="Настройки">
+                        <p class="navigation_text">Настройки</p>
+                    </button>
+                </li>
+            </ul>
+                        
+        </nav>
+    </aside>
+
+<main class="main_content">
+    
+    <div class="analitics">
+        <header class="analitics_header">
+            <p class="analitics_title">Аналитика</p>
+            <div class="analitics_box" onclick="changeText(this)">
+                <span class="analitics_box-text">запросы в чаты</span>
+                <div class="icon-container">
+                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.25 6.875L8.5 11.125L12.75 6.875" stroke="black" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+          </div>
+          <ul class="analitics_spisok">
+            <li class="analitics_list">
+                <button class="analitics_btn btn_active" >Сегодня</button>
+            </li>
+            <li class="analitics_list"></li>
+                <button class="analitics_btn">За неделю</button>
+            </li>
+            <li class="analitics_list"></li>
+                <button class="analitics_btn">За месяц</button>
+            </li>
+          </ul>
+          <img src="../images/arrow.svg" alt="Переход стрелка" class="analitics_arrow">
+        </header>
+
+        <div class="chart-container">
+            <canvas id="myChart" width="800" height="400"></canvas>
+          </div>
+          <svg width="884" height="6" viewBox="0 0 884 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 4L0.5 2.00004L883.5 2V3.99996L0.5 4Z" fill="#D0D4D5" />
+            <path d="M3.5 6C1.84315 6 0.5 4.65686 0.5 3.00001C0.5 1.34317 1.84314 2.86278e-05 3.49998 2.85558e-05L660.5 0C662.157 -7.20136e-08 663.5 1.34314 663.5 2.99999C663.5 4.65683 662.157 5.99997 660.5 5.99997L3.5 6Z" fill="#999E9F" />
+          </svg>
+        <p class="analitics_final-text">Всего запросов за день</p>
+    </div>
+
+     <div class="different_content">
+        <div class="dialog">
+            <header class="dialog_header">
+                <p class="dialog_text">Диалоги</p>
+                <img src="../images/arrow.svg" alt="Переход стрелка" class="dialog_arrow">
+            </header>
+        </div>
+
+        <div class="menagers">
+            <header class="menagers_header">
+                <p class="menagers_text">Менеджеры</p>
+                <img src="../images/arrow.svg" alt="Переход стрелка" class="menagers_arrow">
+            </header>
+            <div class="menagers_list">
+                <!-- Список менеджеров будет отображаться здесь -->
+            </div>
+            <div class="manager_add">
+                <input type="text" placeholder="Email нового менеджера" class="manager_add-input">
+                <button class="manager_add-btn">
+                    <img src="../images/addManager.svg" alt="">
+                </button>
+            </div>
+
+        </div>
+     </div>
+</main>
+
+<aside>
+    <div class="switch_block">
+        <ul class="switch_spisok">
+            <li class="switch_list">
+                <button class="switch_btn" id="themeToggle"><img src="../images/light.svg" alt=""></button>
+            </li>
+
+            <li class="switch_list">
+                <button class="switch_btn"><img src="../images/languages.svg" alt=""></button>
+            </li>
+
+            <li class="switch_list">
+                <button class="switch_btn"><img src="../images/notifications.svg" alt=""></button>
+            </li>
+
+            <li class="switch_list">
+                <button class="switch_btn"><img src="../images/profile.svg" alt=""></button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="tarif_block">
+        <header class="tarif_header">
+            <p class="tarif_text">Тариф</br><span class="tarif_text-dop">Business</span></p>
+            <img src="../images/arrow.svg" alt="Переход стрелка" class="tarif_arrow">
+        </header>
+
+        <div class="tarif_info">
+            <p class="tarif_info-text">Запросы в чат</p>
+            <p class="tarif_price"><span class="tarif_price-big">1300</span> из 5000</p>
+        </div>
+
+        <div class="tarif_info tarif_dop">
+            <p class="tarif_info-text text_dop">Токены данных</p>
+            <p class="tarif_price"><span class="tarif_price-big">11000</span> из 20000</p>
+        </div>
+
+        <button class="tarif_btn-one">Пополнить счет</button>
+        <button class="tarif_btn-two">Изменить тариф</button>
+    </div>
+
+    <div class="integration_block">
+        <header class="integration_header">
+            <p class="integration_title">Интеграции</p>
+            <img src="../images/arrow.svg" alt="Переход стрелка" class="integration_arrow arrows">
+        </header>
+
+        <ul class="integration_spisok">
+            <li class="integration_list">
+                <p class="integration_text">Telegram</p>
+                <button class="integration_button" id="toggleButton">
+                    <img  class="integration_btn btn_tg" src="../images/positive.svg" alt="Состояние кнопки">
+                </button>
+            </li>
+
+            <li class="integration_list">
+                <p class="integration_text">WhatsApp</p>
+                <button class="integration_button" id="toggleButton">
+                    <img  class="integration_btn btn_wp" src="../images/positive.svg" alt="Состояние кнопки">
+                </button>
+            </li>
+
+            <li class="integration_list">
+                <p class="integration_text">Вконтакте</p>
+                <button class="integration_button" id="toggleButton">
+                    <img  class="integration_btn btn_vk" src="../images/positive.svg" alt="Состояние кнопки">
+                </button>
+            </li>
+
+            <li class="integration_list">
+                <p class="integration_text">AnyCRM</p>
+                <button class="integration_button" id="toggleButton">
+                    <img  class="integration_btn btn_crm" src="../images/soon.svg" alt="Состояние кнопки">
+                </button>
+            </li>
+        </ul>
+
+    </div>
+</aside>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="../managerData.js"></script>
+<script src="../managersForMain.js"></script>
+<script src="../javascript.js"></script> 
+<script src="../navigation.js"></script>
+</body>
+</html>

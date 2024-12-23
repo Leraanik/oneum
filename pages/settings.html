@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <aside>
+        <img src="../images/logo.svg" alt="Логотип" class="logo">
+        <nav >
+            <ul class="navigation">
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="index.html" >
+                        <img class="navigation_logo" src="../images/dashboard.svg" alt="Дашборд">
+                        <p class="navigation_text">Дашборд</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn"  data-url="dialog.html">
+                        <img class="navigation_logo" src="../images/message.svg" alt="Диалоги">
+                        <p class="navigation_text">Диалоги</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="neoro.html">
+                        <img class="navigation_logo" src="../images/star.svg" alt="Нейросеть">
+                        <p class="navigation_text">Нейросеть</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="integration.html" >
+                        <img class="navigation_logo" src="../images/plug.svg" alt="Интеграции">
+                        <p class="navigation_text">Интеграции</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="meneger.html">
+                        <img class="navigation_logo" src="../images/users.svg" alt="Менеджеры">
+                        <p class="navigation_text">Менеджеры</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn" data-url="analitics.html">
+                        <img class="navigation_logo" src="../images/chart-pie.svg" alt="Аналитика">
+                        <p class="navigation_text">Аналитика</p>
+                    </button>
+                </li>
+                <li class="navigation_list">
+                    <button class="navigation_btn navigation_btn-active"  data-url="settings.html">
+                        <img class="navigation_logo" src="../images/settings.svg" alt="Настройки">
+                        <p class="navigation_text">Настройки</p>
+                    </button>
+                </li>
+            </ul>
+                        
+        </nav>
+    </aside>
+
+    <main>
+        <div class="block_settings">
+            <div class="settings_spisok">
+                <p class="settings_title">Настройки</p>
+                <ul>
+                    <li class="settings_list">
+                        <button class="settings_btn" data-title="Профиль" data-content="profile">
+                            <p class="settings_heading">Профиль</p>
+                            <p class="settings_description">Личные данные и о компании</p>
+                        </button>
+                    </li>
+
+                    <li class="settings_list">
+                        <button class="settings_btn" data-title="Автосообщения" data-content="auto_messages">
+                            <p class="settings_heading">Автосообщения</p>
+                            <p class="settings_description">настройка триггерных сообщений</p>
+                        </button>
+                    </li>
+
+                    <li class="settings_list">
+                        <button class="settings_btn" data-title="Тариф" data-content="tariff">
+                            <p class="settings_heading">Тариф</p>
+                            <p class="settings_description">Оплата и смена тарифа</p>
+                        </button>
+                    </li>
+
+                    <li class="settings_list">
+                        <button class="settings_btn"  data-title="Виджет на сайт" data-content="widget">
+                            <p class="settings_heading">Виджет на сайт</p>
+                            <p class="settings_description">инструкция по установке</p>
+                        </button>
+                    </li>
+
+                    <li class="settings_list">
+                        <button class="settings_btn" data-title="Внешний вид виджета чата" data-content="chat_appearance">
+                            <p class="settings_heading">Внешний вид виджет чата</p>
+                            <p class="settings_description">настройки цвета, фона</p>
+                        </button>
+                    </li>
+
+                    <li class="settings_list">
+                        <button class="settings_btn" data-title="Обратная связь" data-content="feedback">
+                            <p class="settings_heading">Обратная связь</p>
+                            <p class="settings_description">написать в техническую поддержку</p>
+                        </button>
+                    </li>
+                </ul>
+
+                
+            </div>
+
+            <div>
+                    <div class="settings_changes">
+                        <button class="settings_changes-btn" id="themeToggleTwo">
+                            <img src="../images/light.svg" alt="Свет" class="settings_img">
+                        </button>
+        
+                        <button class="settings_changes-btn">
+                            <img src="../images/languages.svg" alt="Языки" class="settings_img">
+                        </button>
+        
+                        <button class="settings_changes-btn">
+                            <img src="../images/notifications.svg" alt="Уведомления" class="settings_img">
+                        </button>
+        
+                        <button class="settings_changes-btn">
+                            <img src="../images/profile.svg" alt="Профиль" class="settings_img">
+                        </button>
+        
+                    </div>
+                <h1 class="settings_title-main">Выберите настройку</h1>
+
+                <div class="settings_info">
+                </div>
+            </div>
+ 
+
+            
+        </div>
+    </main>
+<script src="../settings.js"></script>
+<script src="../javascript.js"></script>
+<script src="../navigation.js"></script> 
+</body>
+</html>
