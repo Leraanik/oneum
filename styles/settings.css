@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+.dark-theme {
+    background-color: #343837; /* Фон страницы */
+    color: white; /* Цвет текста */
+}
+.dark-theme .block_settings,
+.dark-theme .settings_spisok{
+    border: 1px solid #343837;
+    background: #252928;
+}
+.dark-theme .settings_btn,
+.dark-theme .settings_registration-input,
+.dark-theme .setting_plan,
+.dark-theme .feedback_email,
+.dark-theme .feedback_tel,
+.dark-theme .feedback_input{
+    border: 1px solid #4f5150;
+    background: #343837;
+}
+.dark-theme .settings_title,
+.dark-theme .settings_heading,
+.dark-theme .settings_title-main,
+.dark-theme .feedback_title,
+.dark-theme .settings_text,
+.dark-theme .settings_registration-title,
+.dark-theme .feedback_title-input{
+    color: #f8fbfa;
+}
+.block_settings{
+    display: flex;
+    width: 1173px;
+    height: 860px;
+    border: 1px solid #dadbdc;
+    border-radius: 20px;
+    background: #fafafa;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.settings_spisok{
+    border: 1px solid #dadbdc;
+    border-radius: 20px;
+    padding: 24px;
+    width: 384px;
+    height: 860px;
+    background: #fafafa;
+}
+.settings_title{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0a0a0a;
+    margin-bottom: 24px;
+}
+.settings_btn{
+    text-align: left;
+    border: 1px solid #bebebe;
+    border-radius: 40px;
+    padding: 24px;
+    width: 336px;
+    height: 97px;
+    background: #fafafa;
+    margin-bottom: 24px;
+}
+.settings_btn.active{
+    border: 3px solid #009f5f;
+}
+.settings_heading{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0a0a0a;
+    margin-bottom: 8px;
+}
+.settings_description{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888;
+}
+
+.settings_changes{
+    margin-left: 492px;
+    padding: 8px 24px;
+    width: 296px;
+    height: 56px;
+    white-space: nowrap;
+}
+.settings_changes-btn{
+    border: none;
+    background: none;
+    margin-right: 29.33px;
+}
+.settings_title-main{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 167%;
+    color: #0a0a0a;
+    margin-left: 68px;
+    margin-top: -22px;
+}
+.settings_info{
+    margin-top: 30px;
+    margin-left: 68px;
+}
+.setting_plan{
+    border: 1px solid #0a0a0a;
+    border-radius: 20px;
+    padding: 16px 24px;
+    background: #fafafa;
+    margin-bottom: 30px;
+}
+.settings_one{
+    width: 496px;
+    height: 52px;
+}
+.settings_two{
+    width: 412px;
+    height: 52px;
+}
+.settings_three{
+    width: 705px;
+    height: 456px;
+}
+.settings_text{
+    white-space: pre-wrap;
+    text-align: left;
+    font-family:'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #0a0a0a;
+}
+.settings_copy{
+    border: none;
+    background: none;
+    margin-left: 644px;
+}
+.settings_registration{
+    display: flex;
+    margin-bottom: 75px;
+}
+.settings_registration-title{
+    white-space: nowrap;
+    margin-top: 20px;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #191919;
+}
+.settings_registration-input{
+    border: 1px solid #0a0a0a;
+    border-radius: 30px;
+    padding: 20px 24px;
+    background: #fafafa;
+}
+.settings_registration-input::placeholder{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #acabab;
+}
+.input_FIO{
+    width: 543px;
+    height: 64px;
+    margin-left: 112px;
+}
+.input_email{
+    width: 539px;
+    height: 64px;
+    margin-left: 123px;
+}
+.input_tel{
+    width: 537px;
+    height: 64px;
+    margin-left: 93px;
+}
+.input_name{
+    width: 463px;
+    height: 64px;
+    margin-left: 57px;
+}
+.input_link{
+    width: 460px;
+    height: 64px;
+    margin-left: 104px;
+}
+.settings_block-btn{
+    display: flex;
+    margin-right: 55px;
+}
+.btn_cancel{
+    border: 1px solid #0a0a0a;
+    border-radius: 30px;
+    padding: 16px 27px;
+    width: 129px;
+    height: 52px;
+    background: #fafafa;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0a0a0a;
+    margin-left: 240px;
+}
+.btn_save{
+    border-radius: 30px;
+    padding: 16px 20px;
+    width: 126px;
+    height: 52px;
+    border: none;
+    background: #00df86;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0a0a0a;
+    margin-left: 214px;
+}
+.feedback_list{
+    display: flex;
+    margin-top: 64px;
+}
+.feedback_title{
+    padding-top: 20px;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #191919;
+}
+.feedback_email{
+    border: 1px solid #0a0a0a;
+    border-radius: 30px;
+    padding: 11px 14px;
+    width: 475px;
+    height: 65px;
+    background: #fafafa;
+    margin-left: 85px;
+}
+.feedback_tel{
+    border: 1px solid #0a0a0a;
+    border-radius: 30px;
+    padding: 11px 14px;
+    width: 475px;
+    height: 65px;
+    background: #fafafa;
+    margin-left: 52px;
+}
+.feedback_input{
+    border: 1px solid #0a0a0a;
+    border-radius: 30px;
+    padding: 28px 21px;
+    width: 710px;
+    height: 199px;
+    background: #fafafa;
+}
+.feedback_btn{
+    border: none;
+    margin-top: 64px;
+    margin-left: 573px;
+    background: #00df86;
+    border-radius: 30px;
+    padding: 16px 24px;
+    width: 132px;
+    height: 52px;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #0a0a0a;
+}
+.feedback_title-input{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #191919;
+    margin-top: 64px;
+    margin-bottom: 17px;
+}
+.feedback_email::placeholder{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+}
+.feedback_tel::placeholder{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+}
+.feedback_input::placeholder{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+}
+

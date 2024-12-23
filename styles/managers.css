@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.dark-theme {
+    background-color: #202322; 
+}
+.dark-theme .menagers_block{
+    background: #252928;
+    border: 1px solid #343837;
+}
+.dark-theme .menagers_headers,
+.dark-theme .menagers_FIO,
+.dark-theme .managers_name,
+.dark-theme .managers_letter,
+.dark-theme .managers_tel,
+.dark-theme .managers_role ,
+.dark-theme .managers_status{
+    color: #f8fbfa;
+}
+.dark-theme .menagers_input,
+.dark-theme .manager_item  {
+    border: 1px solid #5b5c61;
+    background: #343837;
+}
+.menagers_block{
+    border: 1px solid #dadbdc;
+    border-radius: 20px;
+    padding: 24px 40px;
+    width: 1242px;
+    height: 845px;
+    background: #fffafa;
+    margin-top: 28px;
+    margin-left: 20px;
+}
+.menagers_info{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 24px;
+}
+.menagers_headers{
+    white-space: nowrap;
+    padding-top: 40px;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #0a0a0a;
+}
+.menagers_spisok{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 630px;
+}
+.menagers_list{
+    margin-right: 25px;
+}
+.menagers_btn{
+    border: none;
+    background: none;
+}
+.menagers_input{
+    margin-top: 70px;
+    margin-left: 40px;
+    border: 1px solid #5b5c61;
+    border-radius: 30px;
+    padding: 8px 16px;
+    width: 1139px;
+    height: 50px;
+    background: #fffafa;
+}
+.menagers_button{
+    margin-left: 1054px;
+    margin-top: 46px;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 24px;
+    width: 123px;
+    height: 49px;
+    background: #009f5f;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #0a0a0a;
+}
+.managers_user{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+.managers_check{
+    width: 24px;
+    height: 24px;
+    margin-right: 56px;
+}
+.menagers_FIO{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-right: 82.5px;
+}
+.managers_name{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0a0a0a;
+    margin-right: 81px;
+}
+.managers_letter{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #000;
+    margin-right: 133px;
+}
+.managers_tel{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-right: 138px;
+}
+.managers_role{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    margin-right: 144.5px;
+}
+.managers_status{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.manager_item {
+    white-space: nowrap;
+    margin-top: 45px;
+    margin-left: 30px;
+    border: 1px solid #adabad;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 250, 250, 0);
+    display: flex;
+    align-items: center;
+}
+
+.manager_item p {
+    margin-right: 70px;
+    font-size: 14px;
+}
+.manager_delete{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.manager_redactor{
+    border: none;
+    background: none;
+}
+.delete_form{
+    display: flex;
+    margin-left: 406px;
+    margin-top: 70px;
+    border-radius: 30px;
+    padding: 10px 17px;
+    width: 350px;
+    height: 54px;
+    background: #474747;
+}
+.delete_block{
+    display: flex;
+}
+.manager_text-change{
+    white-space: nowrap;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 6px;
+}
+.manager_svg{
+    margin-top: 8px;
+    margin-right: 6px;
+}
+.confirm_delete{
+    cursor: pointer;
+    margin-left: 166px;
+    border: none;
+    background: none;
+}
+
+/*:root {
+	--bezhevyy: #ffebd3;
+	--morkovnyy: #ffcb8a;
+	--salatovyy: #bdfc00;
+	--biryuzovyy: #00df86;
+	--zelenyy-holodnyy: #009f5f;
+	--zelenyy-teplyy: #009227;
+	--bezhevyy: #ffebd3;
+	--morkovnyy: #ffcb8a;
+	--salatovyy: #bdfc00;
+	--biryuzovyy: #00df86;
+	--zelenyy-holodnyy: #009f5f;
+	--zelenyy-teplyy: #009227;
+}*/

@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    column-gap: 20px;
+    background: #fafafa;
+}
+
+li{
+    list-style: none;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+}

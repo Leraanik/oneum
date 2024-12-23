@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.dark-theme {
+    background-color:  #202322; /* Фон страницы */
+    color: white; /* Цвет текста */
+}
+
+.dark-theme .integrationMain_spisok{
+    border: 1px solid #343837;
+    background: #252928;
+}
+.dark-theme .integration_info{
+    background: #252928;
+}
+.dark-theme .integrationMain_title,
+.dark-theme .integrationMain_btn-text,
+.dark-theme .integration_heading,
+.dark-theme .integration_description,
+.dark-theme .integration_headline,
+.dark-theme .integration_descrip,
+.dark-theme .integration_schedule-text,
+.dark-theme .integration_schedules-text{
+    color: #f8fbfa;
+}
+.dark-theme .integrationMain_btn,
+.dark-theme .integration_container,
+.dark-theme .integration_input,
+.dark-theme .integration_schedule-list {
+    border: 1px solid #4f5150;
+    background: #343837;
+}
+.dark-theme .integration_btn-connection{
+    background: #343837;
+}
+.dark-theme .inputi{
+    background: #343837;
+}
+.dark-theme .integration_input::placeholder,
+.dark-theme .integrationMain_text,
+.dark-theme .integrationMain_status{
+    color: #b7b8b8;
+}
+.intergration_content{
+    display: flex;
+}
+.integrationMain_spisok{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 24px;
+    width: 295px;
+    height: 860px;
+    background: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 100;
+}
+
+.integrationMain_title{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    margin: 24px;
+}
+.integrationMain_btn{
+    border: 1px solid #bebebe;
+    border-radius: 40px;
+    padding: 24px;
+    width: 247px;
+    height: 103px;
+    background: #fff;
+    margin-bottom: 24px;
+}
+.integrationMain_btn-active{
+    border: 3px solid #009f5f;
+    border-radius: 40px;
+    padding: 24px;
+    width: 265px;
+    height: 89px;
+}
+.integrationMain_btn-text{
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.integrationMain_text{
+    text-align: left;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #282828;
+}
+.integrationMain_status{
+    text-align: left;
+    margin-bottom: 8px;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #3c3c3c;
+}
+
+.integration_info{
+    border: 1px solid #3c3c3c;
+    border-radius: 0 20px 20px 0;
+    width: 1006px;
+    height: 860px;
+    background: #fff;
+    margin-top: 20px;
+    position: absolute;
+    left: 414px;
+}
+.integration_changes{
+    white-space: nowrap;
+    border-radius: 30px 20px 30px 30px;
+    padding: 8px 32px;
+    width: 296px;
+    height: 56px;
+    margin-left: 710px;
+}
+.integration_changes-btn{
+    border: none;
+    background: none;
+    margin-right: 24px;
+}
+.integration_heading{
+    font-family:'Rubik', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+    margin-left: 99px;
+    margin-top: -24px;
+}
+.integration_description{
+    margin-top: 32px;
+    margin-left: 99px;
+    font-family:'Rubik', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+}
+.integration_container {
+    margin-left: 99px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 8px 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 769px;
+    height: 65px;
+}
+
+.integration_container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.integration_container input::placeholder {
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #828282;
+}
+
+.integration_container button {
+    border: none;
+    outline: none;
+    background-color: #00df86;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #050505;
+    border-radius: 30px;
+    padding: 16px 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+.integration_container button:hover {
+    background-color: #218838;
+}
+.integration_headline{
+    margin-top: 32px;
+    margin-left: 99px;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #282828;
+}
+.integration_blockes{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 99px;
+}
+.integration_input{
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    padding: 16px;
+    width: 610px;
+    height: 51px;
+}
+.integration_input::placeholder{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #282828;
+}
+.integration_btn-connection{
+    display: flex;
+    border: 1px solid #00df86;
+    border-radius: 30px;
+    padding: 8px 16px;
+    width: 153px;
+    height: 51px;
+    background: #fff;
+    margin: 0px  22px;
+    cursor: pointer;
+}
+.integration_imger{
+    margin-top: 6px;
+}
+.integration_descrip{
+    margin-top: 9px;
+    margin-left: 4px;
+    font-family:'Rubik', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+.integration_btn-removal{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.integration_schedule{
+    margin-top: 32px;
+    margin-left: 99px;
+}
+.integration_schedule-list{
+    display: flex;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 8px 16px;
+    background: #fff;
+    margin-bottom: 16px;
+}
+.schedule_list-one{
+    width: 435px;
+    height: 56px;
+}
+.schedule_list-two{
+    width: 442px;
+    height: 56px;
+}
+.schedule_list-three{
+    width: 474px;
+    height: 56px;
+}
+.schedule_list-four{
+    width: 760px;
+    height: 67px;
+}
+.schedule_list-five{
+    width: 327px;
+    height: 56px;
+}
+.integration_logo{
+    width: 40px;
+    height: 40px;
+}
+.integration_schedule-text{
+    white-space: nowrap;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin-left: 8px;
+    margin-top: 11px;
+}
+.integration_schedules-text{
+    white-space: nowrap;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin-left: 8px;
+
+}

@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Темная тема */
+.dark-theme {
+    background-color: #343837; /* Фон страницы */
+    color: white; /* Цвет текста */
+}
+
+/* Стиль для всех элементов, которые нужно изменить */
+.dark-theme .sidebar, 
+.dark-theme .main_content, 
+.dark-theme .switch_block,
+.dark-theme .tarif_block,
+.dark-theme .integration_block,
+.dark-theme .analitics {
+    background-color: #343837; /* Фон боковой панели и других блоков */
+    color: white; /* Цвет текста в этих блоках */
+}
+
+.dark-theme .tarif_btn-one{
+    color: #000;
+}
+.dark-theme .tarif_btn-two{
+ background: #535756;
+ border:  1ps solid #009f5f;
+ color: #fff;
+}
+.dark-theme .analitics_title,
+.dark-theme .analitics_box-text,
+.dark-theme .menagers_text,
+.dark-theme .dialog_text,
+.dark-theme .tarif_text,
+.dark-theme .tarif_info-text,
+.dark-theme .tarif_price,
+.dark-theme .tarif_price-big,
+.dark-theme .tarif_text-dop,
+.dark-theme .integration_title,
+.dark-theme .integration_text{
+    color: white;
+}
+.dark-theme .chart-container{
+    background-color: #343837;
+}
+.dark-theme .integration_button {
+    border: none;
+    background: #343837;
+}
+.dark-theme .dialog,
+.dark-theme .menagers{
+    background-color: #343837;
+}
+/* Пример для кнопок и других элементов */
+.dark-theme .navigation_btn {
+    background-color: #555; /* Пример изменения фона кнопок */
+    color: white; /* Цвет текста на кнопках */
+}
+
+
+
+
+.switch_block{
+    border-radius: 20px;
+    padding: 11px 12px;
+    width: 296px;
+    height: 62px;
+    margin-top: 19px;
+    margin-left: 21px;
+}
+.switch_spisok{
+    display: flex;
+}
+.switch_list{
+    margin-right: 25px;
+}
+.switch_btn{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.tarif_block{
+    background: #fffafa;
+    border: 1px solid #5b5c61;
+    border-radius: 20px;
+    width: 296px;
+    height: 403px;
+    margin-top: 19px;
+    margin-left: 20px;
+}
+.tarif_header{
+    display: flex;
+    padding: 24px;
+    width: 295px;
+    height: 99px;
+}
+.tarif_text{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #161616;
+}
+.tarif_text-dop{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #161616;
+    margin-top: 8px;
+}
+.tarif_arrow{
+    margin-left: 125px;
+}
+.tarif_info{
+    border: 1px solid #009f5f;
+    border-radius: 30px;
+    width: 247px;
+    height: 77px;
+    margin-left: 24px;
+}
+.tarif_info-text{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    margin-top: 17px;
+    margin-left: 51px;
+}
+.tarif_dop{
+    margin-top: 9px;
+}
+.tarif_price{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #505050;
+    margin-left: 51px;
+}
+.tarif_price-big{
+    font-weight: 500;
+    color: #000;
+}
+.text_dop{
+    margin-top: 16px;
+    margin-left: 72px;
+}
+.tarif_btn-one{
+    margin-top: 31px;
+    margin-left: 36.5px;
+    border: none;
+    white-space: nowrap;
+    border-radius: 30px;
+    padding: 11px 58px;
+    width: 227px;
+    height: 39px;
+    background: #009f5f;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #fffafa;
+}
+.tarif_btn-two{
+    margin-top: 14px;
+    margin-left: 30px;
+    white-space: nowrap;
+    border: 1px solid #009f5f;
+    border-radius: 30px;
+    padding: 12px 71px;
+    width: 241px;
+    height: 38px;
+    background: #fffafa;
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #000;
+}
+
+.integration_block{
+    background: #fffafa;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 1px solid #5b5c61;
+    border-radius: 20px;
+    width: 296px;
+    height: 357px;
+}
+.integration_header{
+    display: flex;
+    padding: 24px;
+    width: 296px;
+    height: 88px;
+}
+.integration_title{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+.integration_arrow{
+    margin-left: 84px;
+}
+.integration_list{
+    display: flex;
+    margin-left: 24px;
+    margin-right: 24px;
+    height: 41px;
+    border-bottom: 1px solid #aaabaf;
+    margin-top: 24px;
+}
+.integration_list:first-child{
+    margin-top: 8px;
+}
+.integration_text{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.integration_button{
+    border: none;
+    background: #fff;
+}
+.btn_tg{
+    margin-left: 147px;
+}
+.btn_wp{
+    margin-left: 140px;
+}
+.btn_vk{
+    margin-left: 135px;
+}
+.btn_crm{
+    margin-left: 131px;
+}

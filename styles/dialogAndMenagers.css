@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pangolin&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.different_content{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.dialog{
+    border: 1px solid #5b5c61;
+    background: #fffafa;
+    border-radius: 20px;
+    width: 532px;
+    height: 456px;
+}
+.dialog_header{
+    display: flex;
+    padding: 24px;
+    width: 532px;
+    height: 88px;
+}
+.dialog_text{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0a0a0a;
+}
+.dialog_arrow{
+    margin-left: 359px;
+}
+.menagers{
+    background: #fffafa;
+    margin-left: 20px;
+    border: 1px solid #5b5c61;
+    border-radius: 20px;
+    width: 374px;
+    height: 456px;
+}
+.menagers_header{
+    display: flex;
+    padding: 24px;
+    width: 374px;
+    height: 88px;
+}
+.menagers_text{
+    font-family: 'Rubik', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000;
+}
+.menagers_arrow{
+    margin-left: 155px;
+}
+.manager_items{
+    margin-top: 24px;
+    display: flex;
+}
+.manager_names{
+    white-space: nowrap;
+    margin-right: 195px;
+    margin-left: 24px;
+    padding-top: 7px;
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+.delete_button{
+    border: none;
+    background: none;
+}
+hr{
+    margin: 0px 24px;
+}
+.manager_add{
+    gap: 64px;
+    margin: 24px;
+    display: flex;
+    border: 1px solid #009f5f;
+    border-radius: 30px;
+    padding: 8px 16px;
+    width: 326px;
+    height: 56px;
+}
+.manager_add-input,
+.manager_add-btn{
+    border: none;
+    background: none;
+}
+.manager_add-inpu::placeholder{
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #828282;
+}
